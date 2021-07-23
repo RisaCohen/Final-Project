@@ -1,0 +1,56 @@
+.picture{
+
+}
+
+.top{
+	margin:auto;
+	width:50%;
+	text-align:center;
+	font-family: monospace;
+	font-size: 50px;
+	background-color: rgba(256, 256, 256, .5);
+	padding-bottom: 40px;
+	padding-top:10px;
+	box-shadow: 0 3px 6px 6px rgba(0,0,0,0.2);
+
+
+}
+
+#table{
+	margin: auto;
+	width:50%;
+	padding-top:60px;
+	padding:130px;
+
+}
+
+p{
+	font-size:24px;
+	color:gray;
+}
+
+.picture:hover{
+  background-color: rgb(140,270,230);
+  border-radius: 5px;
+  padding:5px;
+  transition-duration: .4s;
+
+ }
+
+ img:hover{
+ 	width:400px;
+ 	transition-duration: .4s;
+ }
+
+ img{
+ 	box-shadow: 0 3px 8px 3px rgba(0,0,0,0.4);
+ }
+
+
+
+ body{
+ 	background-image:url("assets/picturebackground.png");
+ 	background-repeat: no-repeat;
+ 	background-size: 3000px;
+ 	background-attachment: fixed;
+ }
